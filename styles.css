@@ -1,0 +1,221 @@
+
+body {
+    background-color: bisque;
+}
+
+
+
+header {
+    height: 100px;
+    background-color: #8E1F2F;
+    color: #F0BC42;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: center;
+    margin-bottom: 10px;
+    
+}
+
+.team-records {
+    display: flex;
+    align-items: center;
+    
+}
+
+.roma-wins {
+    width: 37%;
+    height: 40px;
+    background-color: #8E1F2F;
+    color: #F0BC42;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+.draws {
+    width:35%;
+    height:40px;
+    background-color: grey;
+    color: black;
+    font-weight: bold ;
+    text-align: center;
+
+
+}
+
+.lazio-wins {
+    width: 28%;
+    height: 40px;
+    background-color: #15366F;
+    color: #87D8F7;
+    font-weight: 800;
+    text-align:center;
+
+}
+
+.supporters {
+    display: flex;
+    height: 500px;
+    margin-top: 10px;
+    margin-bottom: -20px;
+    
+    
+}
+
+.roma-supporters {
+    height: 450px;
+    width: 50%;
+    background-image: url(https://img.bleacherreport.net/img/images/photos/002/435/160/hi-res-167312463_crop_north.jpg?1375888553&w=3072&h=2048);
+    background-size: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.roma-supporters:hover ::backdrop{
+    opacity: 0.3;
+    
+    
+}
+
+.middle {
+    height:250px;
+    width: 300px;
+    transition: .5s ease;
+    opacity: 0;
+}
+
+.roma-supporters:hover .middle {
+    opacity: 1;
+}
+
+.lazio-supporters:hover .middle {
+    opacity: 1;
+}
+
+
+.lazio-supporters {
+    height: 450px;
+    width: 50%;
+    background-image: url(https://e3.365dm.com/18/08/1096x616/skynews-lazio-fans-serie-a_4394590.jpg?20180819133043);
+    background-size: 800px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+#romalogo {
+    height: 60px;
+}
+
+#roma-wolf-logo {
+    height: 250px;
+}
+
+
+
+#laziologo {
+    height: 60px;
+}
+
+#lazio-eagle-logo {
+    height:250px;
+}
+
+#mourinho {
+    height: 100px;
+    border-radius: 70%;
+}
+
+#sarri {
+    height: 100px;
+    border-radius: 70%;
+
+}
+
+#pelligirni {
+    height: 100px;
+    border-radius: 70%;
+}
+
+#Ciro {
+    height: 100px;
+    border-radius: 70%;
+
+}
+
+
+.manager-captain-roma {
+    border: solid #F0BC42 5px;
+    border-radius: 15%;
+    height: 350px;
+    width: 375px;
+    color:#F0BC42;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-image: url(https://www.soccermaster.com/wp-content/uploads/919020_677_nike_roma_home_jsy_sm_01.jpg);
+    background-position: 2560px -550px ;
+   
+}
+
+
+.manager-captain-lazio {
+    border: solid #15366F 5px;
+    border-radius: 15%;
+    height: 350px;
+    width: 375px;
+    color:#15366F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    background-image: url(https://www.storemls.com/image/cache/catalog/lege-serie-a/Lazio/lazio-home-jersey-2022-23-02-900x900.jpg);
+    background-position: 750px 900px ;
+    background-size: 1100px;
+   
+}
+
+.pregame-roma-videos {
+    height: 600px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+
+#team-boxes {
+    background-image:url(https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg);
+    background-size: 3000px;
+    background-position: -350px 1000px;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 525px;
+    margin-top: -25px;
+
+}
+
+
+
+footer {
+    height: 100px;
+    background-color: #15366F;
+    color: #87D8F7;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    padding-left: 25px ;
+    padding-right: 25px;
+
+}
